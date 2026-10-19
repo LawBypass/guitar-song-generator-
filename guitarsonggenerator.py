@@ -1,4 +1,4 @@
-#project that generates random guitar chords along with choosing a strumming pattern from a list 
+#simple program that generates random guitar chords along with choosing a strumming pattern from a list 
 import random 
 
 #I also added stuck chords (e.g Es as in stuck. the g is stuck by default as i dont see a need to have other variations
@@ -19,3 +19,4 @@ song_chords = random.choices(chords , k= 4)
 
 print("Your chords:", "-".join(song_chords))
 print ("Your strumming pattern", "-".join(song_strumming))
+
